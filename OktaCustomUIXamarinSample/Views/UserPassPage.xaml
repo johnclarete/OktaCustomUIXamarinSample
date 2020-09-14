@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="OktaCustomUIXamarinSample.Views.UserPassPage">
+    <ContentPage.Content>
+        <StackLayout  VerticalOptions="Center" HorizontalOptions="Fill" Padding="20">
+            <Entry Placeholder="Username" x:Name="ctlUsername"/>
+            <Entry Placeholder="Password" x:Name="ctlPassword"/>
+            <Button Background="Gray"  Text="Log In" Clicked="Button_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
